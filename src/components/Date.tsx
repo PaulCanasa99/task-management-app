@@ -15,7 +15,7 @@ const DateComponent = ({ date }: { date: string }) => {
   const formattedDate = format(utcDate, 'dd MMMM, yyyy');
 
   let textColor = 'white';
-  let backgroundColor = '[#36393d]';
+  let backgroundColor = 'bgGrey';
   let icon = clock;
   if (daysUntilDue < 0) {
     textColor = 'textRed';

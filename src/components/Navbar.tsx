@@ -20,7 +20,7 @@ const Navbar = ({getTasks} : {getTasks: LazyQueryExecFunction<any, OperationVari
     <Input
       size="lg"
       onKeyDown={handleKeyDown}
-      placeholder="Search"
+      placeholder="Search by name"
       labelPlacement="outside"
       value={searchValue}
       onChange={({target}) => setSearchValue(target.value)}

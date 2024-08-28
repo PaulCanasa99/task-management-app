@@ -6,15 +6,25 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
+  safelist: [
+    'bg-bgRed',
+    'bg-bgGreen',
+    'bg-bgYellow',
+    'bg-bgGrey',
+    'text-textRed',
+    'text-textGreen',
+    'text-textYellow'
+  ],
   theme: {
     colors: {
       'white': '#ffffff',
-      'bgRed': '#3e3c36',
-      'textRed': '#e6b454',
+      'bgRed': '#3d3335',
+      'textRed': '#d9564c',
       'bgGreen': '#333c36',
       'textGreen': '#6fb352',
       'bgYellow': '#3f3c36',
-      'textYellow': '#e6b454'
+      'textYellow': '#e6b454',
+      'bgGrey': '#36393d'
     }
   },
   plugins: [
